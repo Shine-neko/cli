@@ -92,6 +92,7 @@ Examples:
 	cmd.AddCommand(newStatusCommand(cfg))
 	cmd.AddCommand(newValidateCommand(cfg))
 	cmd.AddCommand(newHistoryCommand(cfg))
+	cmd.AddCommand(newServeCommand(cfg))
 	cmd.AddCommand(newPluginCommand(cfg))
 	cmd.AddCommand(newWorkflowCommand(cfg))
 	cmd.AddCommand(newConfigCommand(cfg))
